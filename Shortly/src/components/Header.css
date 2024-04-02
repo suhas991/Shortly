@@ -35,6 +35,14 @@ nav ul {
     font-size: 30px;
     font-weight: 600;
 }
+@media only screen and (max-width: 1000px) {
+    #logo{
+        display: flex;
+    }
+    .left li{
+       display: none;
+    }
+  }
 
     
     
